@@ -3,6 +3,8 @@ set -ex
 
 THIS_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+npm -v
+node -v
 npm install --prefix $THIS_SCRIPT_DIR axios moment-timezone --save
 ls -la $THIS_SCRIPT_DIR/node_modules
 
